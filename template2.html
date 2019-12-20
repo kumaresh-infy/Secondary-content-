@@ -1,0 +1,73 @@
+<div id="pdfTable" #pdfTable>
+    <div style="font-family:Arial;">
+    <h1>{{name}}</h1>
+    <div style="text-align:center;text-decoration:underline;font-family:courier;"><b><u><i>INTRODUCTION</i></u></b></div>
+    <div><u>General</u></div>
+    <br/>
+    <div>The Electrical Load Analysis (ELA) gives the necessary operational/maximum electrical loads of the various aircraft systems in the different flight phase configurations. </div>
+    <br/>
+  <div>The operator can use the ELA data to evaluate the effects of system modifications on electrical load distribution and power consumption.
+  </div>
+  <br/>
+  <div>
+      This ELA contains customized data that is applicable to the aircraft specified on the title page (A/C type and MSN) and reflects the <b>AIRCRAFT STATUS AT DELIVERY.</b> AIRBUS does <b>not issue revisions</b> for this manual 
+  </div>
+  <br/>
+  <div>
+     The structure of the ELA is as follows
+  </div>
+  <ul>
+    <li>Introduction to the ELA and general description of the aircraft electrical network </li>
+    <li>Electrical loads at busbar/sub-busbar level
+        This part gives the nominal power rating and the maximum and operational loads for each circuit breaker connected to the specified busbar/sub-busbar for the different flight phases. 
+  </li>
+    <li>Electrical loads at generator and converter level This part gives the breakdown of the busbar loads for each power source when power is supplied to the aircraft by all the Integrated Drive Generators and by only one IDG. An analysis is also provided per channel (side 1, side 2, and essential channel).
+  
+  </li>
+  </ul>
+  <br/>
+  <div>
+    Guidelines for the validation of new electrical load installations and related update of the ELA are given in paragraph 3 of this introduction. 
+  </div>
+  <br/>
+  <div>
+    To get a customized diagram of the electrical power generation and distribution (AC/DC), refer to the applicable block diagram given in the Aircraft Schematic Manual (Ref. ASM 24-00-01). 
+  <u>Note:</u> In the ASM, the effectivity statement is in Fleet Serial Number (FSN) and not in Manufacturer Serial Number (MSN). 
+  </div>
+  <br/>
+  <div><u>ELA document presentation</u></div>
+  <br/>
+  <div style="margin-left:30px;"><u>2.1 Electrical Load Data</u></div>
+  <br/>
+  <div>Each circuit breaker is listed in the ELA with the data that follows:</div>
+  <ul>
+    <li><b>ELEC IDENT:</b> Functional Item Number (FIN) of the circuit breaker </li>
+    <li><b>C:</b> circuit breaker open with safety clip installed
+  </li>
+    <li><b>PANEL:</b> VU/VE electrical panel where the circuit breaker is located
+  
+  </li>
+    <li><b>ATA100: 4-digit:</b> ATA reference of the system
+  
+  </li>
+    <li><b>DESIGNATION:</b> designation of the circuit breaker 
+  
+  </li>
+    <li><b>I:</b> Intermittent load 
+  
+  </li>
+    <li><b>NOMINAL POWER:</b> maximum design power consumption of the system connected to the circuit breaker
+  
+  </li>
+    <li><b>Flight Phases:</b>power consumption of the system connected to the circuit breaker for each flight phase 
+  
+  </li>
+  
+  </ul>
+    </div>
+    </div>
+    <div id="secondPageContent" #secondPageContent>
+      <div style="margin-left:30px;">2.2. Flight phase definition </div>
+      <div>The flight phases of a typical A318/A319/A320/A321 flight are as follows: </div>
+      <div style="float:left;"><div style="float:left;"><b>Ground:</b></div><div style="float :left;margin-left: 30px;">Engines Stopped</div></div>
+    </div>
